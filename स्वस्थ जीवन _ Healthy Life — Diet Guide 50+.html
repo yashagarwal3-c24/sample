@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)file:///C:/Users/38582/Downloads/swasth-jeevan-diet-guide.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>स्वस्थ जीवन | Healthy Life — Diet Guide 50+</title>
+<link href="./स्वस्थ जीवन _ Healthy Life — Diet Guide 50+_files/css2" rel="stylesheet">
+<style>
+:root {
+  --saffron: #E8750A;
+  --turmeric: #F5A623;
+  --leaf: #3A7D44;
+  --leaf-light: #5AA65F;
+  --cream: #FBF5E6;
+  --brown: #5C3D2E;
+  --clay: #C27C4A;
+  --accent: #D4451C;
+  --bg: #FBF5E6;
+  --surface: #FFFFFF;
+  --surface2: #F5EDD8;
+  --text: #2D1F0E;
+  --text2: #6B4C2A;
+  --border: #E2C99A;
+  --shadow: rgba(92,61,46,0.12);
+  --card-radius: 16px;
+}
+[data-theme="dark"] {
+  --bg: #1A1208;
+  --surface: #2A1E0E;
+  --surface2: #3A2A14;
+  --text: #F5E6C8;
+  --text2: #C4A070;
+  --border: #4A3020;
+  --shadow: rgba(0,0,0,0.4);
+  --cream: #2A1E0E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Sans', 'Noto Sans Devanagari', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, var(--saffron), var(--turmeric));
+  padding: 20px 16px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(232,117,10,0.3);
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.header-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 1.2;
+}
+.header-title p {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.85);
+  margin-top: 2px;
+}
+.header-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.toggle-btn {
+  background: rgba(255,255,255,0.25);
+  border: 1.5px solid rgba(255,255,255,0.5);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.toggle-btn:hover { background: rgba(255,255,255,0.4); }
+.toggle-btn.active { background: rgba(255,255,255,0.9); color: var(--saffron); }
+/* NAV TABS */
+.nav-scroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-scroll::-webkit-scrollbar { display: none; }
+.nav-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 0 2px;
+  width: max-content;
+}
+.nav-tab {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 7px 13px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+.nav-tab:hover, .nav-tab.active {
+  background: #fff;
+  color: var(--saffron);
+}
+/* MAIN CONTENT */
+.main { padding: 16px; max-width: 600px; margin: 0 auto; }
+.tab-content { display: none; }
+.tab-content.active { display: block; animation: fadeIn 0.3s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+/* SECTION HEADER */
+.section-hero {
+  background: linear-gradient(135deg, var(--leaf), var(--leaf-light));
+  border-radius: var(--card-radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.section-hero::before {
+  content: attr(data-emoji);
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  opacity: 0.2;
+}
+.section-hero h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 4px; }
+.section-hero p { font-size: 0.8rem; opacity: 0.9; line-height: 1.4; }
+/* CARDS */
+.card {
+  background: var(--surface);
+  border-radius: var(--card-radius);
+  margin-bottom: 12px;
+  border: 1.5px solid var(--border);
+  overflow: hidden;
+  box-shadow: 0 2px 12px var(--shadow);
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+  gap: 10px;
+}
+.card-header:hover { background: var(--surface2); }
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-icon {
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.card-icon.saffron { background: rgba(232,117,10,0.12); }
+.card-icon.green { background: rgba(58,125,68,0.12); }
+.card-icon.red { background: rgba(212,69,28,0.12); }
+.card-icon.brown { background: rgba(92,61,46,0.12); }
+.card-icon.blue { background: rgba(30,100,200,0.12); }
+.card-icon.purple { background: rgba(120,60,180,0.12); }
+.card-label { font-size: 0.9rem; font-weight: 600; line-height: 1.2; }
+.card-sub { font-size: 0.72rem; color: var(--text2); margin-top: 1px; }
+.card-arrow {
+  font-size: 0.8rem;
+  color: var(--text2);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.card.open .card-arrow { transform: rotate(180deg); }
+.card-body {
+  display: none;
+  padding: 0 16px 16px;
+  border-top: 1px solid var(--border);
+}
+.card.open .card-body { display: block; padding-top: 14px; }
+/* CONTENT ELEMENTS */
+.info-block {
+  background: var(--surface2);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-left: 3px solid var(--saffron);
+}
+.info-block.green { border-left-color: var(--leaf); }
+.info-block.red { border-left-color: var(--accent); }
+.info-block.blue { border-left-color: #2563EB; }
+.info-block h4 { font-size: 0.85rem; font-weight: 600; margin-bottom: 6px; }
+.info-block p, .info-block li { font-size: 0.8rem; line-height: 1.6; color: var(--text2); }
+.info-block ul { padding-left: 16px; }
+.info-block li { margin-bottom: 3px; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: rgba(232,117,10,0.1);
+  color: var(--saffron);
+  border: 1px solid rgba(232,117,10,0.2);
+}
+.tag.green { background: rgba(58,125,68,0.1); color: var(--leaf); border-color: rgba(58,125,68,0.2); }
+.tag.red { background: rgba(212,69,28,0.1); color: var(--accent); border-color: rgba(212,69,28,0.2); }
+/* MEAL TABLE */
+.meal-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.meal-row:last-child { border-bottom: none; }
+.meal-time {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--saffron);
+  text-transform: uppercase;
+  width: 50px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+.meal-content { flex: 1; }
+.meal-content strong { font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 3px; }
+.meal-content span { font-size: 0.75rem; color: var(--text2); line-height: 1.5; }
+.meal-kcal {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--leaf);
+  background: rgba(58,125,68,0.1);
+  padding: 3px 7px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+/* CHECKLIST */
+.check-list { list-style: none; }
+.check-list li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  border-bottom: 1px dashed var(--border);
+}
+.check-list li:last-child { border: none; }
+.check-dot {
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.check-dot.no { background: #FEE2E2; color: #DC2626; }
+.check-dot.yes { background: #DCFCE7; color: #16A34A; }
+.check-dot.tip { background: #FEF9C3; color: #CA8A04; }
+/* VIDEO CARD */
+.video-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface2);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+.video-card:hover { border-color: var(--saffron); transform: translateX(2px); }
+.video-thumb {
+  width: 52px; height: 36px;
+  background: linear-gradient(135deg, #FF0000, #CC0000);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.video-info strong { font-size: 0.8rem; font-weight: 600; display: block; }
+.video-info span { font-size: 0.7rem; color: var(--text2); }
+/* SUPPLEMENT GRID */
+.supp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.supp-card {
+  background: var(--surface2);
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  text-align: center;
+}
+.supp-card .emoji { font-size: 1.6rem; margin-bottom: 6px; }
+.supp-card strong { font-size: 0.78rem; font-weight: 700; display: block; margin-bottom: 3px; }
+.supp-card span { font-size: 0.68rem; color: var(--text2); line-height: 1.4; display: block; }
+/* MACROS BAR */
+.macro-bar { margin: 10px 0; }
+.macro-label { display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 4px; font-weight: 600; }
+.macro-track { height: 8px; background: var(--border); border-radius: 10px; overflow: hidden; }
+.macro-fill { height: 100%; border-radius: 10px; transition: width 0.8s ease; }
+/* REMEDY GRID */
+.remedy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.remedy-card {
+  background: var(--surface2);
+  border-radius: 12px;
+  padding: 12px 10px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s;
+}
+.remedy-card:hover { border-color: var(--leaf); }
+.remedy-card .emoji { font-size: 1.5rem; display: block; margin-bottom: 4px; }
+.remedy-card strong { font-size: 0.75rem; font-weight: 700; display: block; margin-bottom: 3px; }
+.remedy-card p { font-size: 0.68rem; color: var(--text2); line-height: 1.4; }
+/* DIVIDER */
+.section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text2);
+  margin: 16px 0 8px;
+}
+/* HIGHLIGHT BOX */
+.highlight {
+  background: linear-gradient(135deg, rgba(232,117,10,0.1), rgba(245,166,35,0.08));
+  border: 1.5px solid rgba(232,117,10,0.25);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+.highlight h3 { font-size: 0.9rem; font-weight: 700; color: var(--saffron); margin-bottom: 6px; }
+.highlight p, .highlight li { font-size: 0.8rem; color: var(--text2); line-height: 1.6; }
+.highlight ul { padding-left: 16px; }
+/* WATER TRACKER VISUAL */
+.water-visual {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.water-drop { font-size: 1.4rem; cursor: pointer; transition: transform 0.15s; }
+.water-drop:hover { transform: scale(1.2); }
+/* RESPONSIVE */
+@media (max-width: 400px) {
+  .supp-grid, .remedy-grid { grid-template-columns: 1fr; }
+  .header-title h1 { font-size: 1.1rem; }
+}
+.hindi { display: none; }
+[data-lang="hi"] .hindi { display: block; }
+[data-lang="hi"] .english { display: none; }
+.bilingual .hindi, .bilingual .english { display: block; }
+</style>
+</head>
+<body data-theme="light" data-lang="en">
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-top">
+    <div class="header-title">
+      <h1>🌿 Swasth Jeevan Guide</h1>
+      <p class="english">Complete Health &amp; Diet Plan · Age 50+</p>
+      <p class="hindi">सम्पूर्ण स्वास्थ्य एवं आहार योजना · उम्र 50+</p>
+    </div>
+    <div class="header-controls">
+      <button class="toggle-btn active" id="langToggle" onclick="toggleLang()">हिं / EN</button>
+      <button class="toggle-btn" id="themeToggle" onclick="toggleTheme()">🌙</button>
+    </div>
+  </div>
+  <div class="nav-scroll">
+    <div class="nav-tabs">
+      <button class="nav-tab" onclick="showTab(&#39;basics&#39;)"><span class="english">🧬 Basics</span><span class="hindi">🧬 मूल बातें</span></button>
+      <button class="nav-tab" onclick="showTab(&#39;meals&#39;)"><span class="english">🍽️ Meals</span><span class="hindi">🍽️ भोजन</span></button>
+      <button class="nav-tab" onclick="showTab(&#39;rules&#39;)"><span class="english">⚠️ Rules</span><span class="hindi">⚠️ नियम</span></button>
+      <button class="nav-tab active" onclick="showTab(&#39;digestion&#39;)"><span class="english">🫁 Digestion</span><span class="hindi">🫁 पाचन</span></button>
+      <button class="nav-tab" onclick="showTab(&#39;movement&#39;)"><span class="english">🏃 Move</span><span class="hindi">🏃 व्यायाम</span></button>
+      <button class="nav-tab" onclick="showTab(&#39;travel&#39;)"><span class="english">✈️ Travel</span><span class="hindi">✈️ सफर</span></button>
+      <button class="nav-tab" onclick="showTab(&#39;supplements&#39;)"><span class="english">💊 Supps</span><span class="hindi">💊 सप्लीमेंट</span></button>
+      <button class="nav-tab" onclick="showTab(&#39;remedies&#39;)"><span class="english">🌿 Remedies</span><span class="hindi">🌿 घरेलू नुस्खे</span></button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+
+<!-- ==================== TAB: BASICS ==================== -->
+<div id="tab-basics" class="tab-content">
+  <div class="section-hero" data-emoji="🧬">
+    <h2 class="english">Understanding Nutrition</h2>
+    <h2 class="hindi">पोषण को समझें</h2>
+    <p class="english">What your body needs at 50+ — science explained simply</p>
+    <p class="hindi">50+ उम्र में शरीर को क्या चाहिए — आसान भाषा में</p>
+  </div>
+
+  <!-- Daily Needs Summary -->
+  <div class="highlight">
+    <h3 class="english">📊 Your Daily Target (50+ Vegetarian)</h3>
+    <h3 class="hindi">📊 आपका रोज़ का लक्ष्य (50+ शाकाहारी)</h3>
+    <div class="macro-bar">
+      <div class="macro-label"><span>🥚 Protein</span><span class="english">55–65g/day</span><span class="hindi">55–65 ग्राम/दिन</span></div>
+      <div class="macro-track"><div class="macro-fill" style="width:40%;background:linear-gradient(90deg,#E8750A,#F5A623)"></div></div>
+    </div>
+    <div class="macro-bar">
+      <div class="macro-label"><span>🌾 Carbs</span><span class="english">180–220g/day</span><span class="hindi">180–220 ग्राम/दिन</span></div>
+      <div class="macro-track"><div class="macro-fill" style="width:55%;background:linear-gradient(90deg,#3A7D44,#5AA65F)"></div></div>
+    </div>
+    <div class="macro-bar">
+      <div class="macro-label"><span>🥑 Fats</span><span class="english">40–50g/day</span><span class="hindi">40–50 ग्राम/दिन</span></div>
+      <div class="macro-track"><div class="macro-fill" style="width:30%;background:linear-gradient(90deg,#2563EB,#60A5FA)"></div></div>
+    </div>
+    <div class="macro-bar">
+      <div class="macro-label"><span>🌿 Fiber</span><span class="english">25–30g/day</span><span class="hindi">25–30 ग्राम/दिन</span></div>
+      <div class="macro-track"><div class="macro-fill" style="width:25%;background:linear-gradient(90deg,#7C3AED,#A78BFA)"></div></div>
+    </div>
+    <div class="macro-bar">
+      <div class="macro-label"><span>🔥 Calories</span><span class="english">1600–1900 kcal/day</span><span class="hindi">1600–1900 कैलोरी/दिन</span></div>
+      <div class="macro-track"><div class="macro-fill" style="width:60%;background:linear-gradient(90deg,#DC2626,#F87171)"></div></div>
+    </div>
+  </div>
+
+  <!-- Protein Card -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">🥚</div>
+        <div>
+          <div class="card-label english">Protein — मांसपेशियों का ईंधन</div>
+          <div class="card-label hindi">प्रोटीन — मांसपेशियों का ईंधन</div>
+          <div class="card-sub english">55–65g per day · Most deficient in veg diet</div>
+          <div class="card-sub hindi">55–65 ग्राम प्रतिदिन · शाकाहारी में सबसे ज़्यादा कमी</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block">
+        <h4 class="english">What it does</h4>
+        <h4 class="hindi">यह क्या करता है</h4>
+        <ul>
+          <li class="english">Repairs muscles, bones, skin &amp; hair</li>
+          <li class="hindi">मांसपेशियां, हड्डियां, त्वचा और बाल बनाता है</li>
+          <li class="english">Makes enzymes, hormones &amp; antibodies</li>
+          <li class="hindi">एंजाइम, हार्मोन और एंटीबॉडी बनाता है</li>
+          <li class="english">After 50: muscle loss increases — need MORE protein</li>
+          <li class="hindi">50 के बाद मांसपेशी घटती है — ज़्यादा प्रोटीन ज़रूरी</li>
+        </ul>
+      </div>
+      <div class="section-label english">Best Vegetarian Sources</div>
+      <div class="section-label hindi">सर्वश्रेष्ठ शाकाहारी स्रोत</div>
+      <div class="tag-row">
+        <span class="tag green">Dal (Moong best) 🫘</span>
+        <span class="tag green">Paneer 🧀</span>
+        <span class="tag green">Curd/Dahi 🥛</span>
+        <span class="tag green">Rajma/Chana 🫘</span>
+        <span class="tag green">Tofu</span>
+        <span class="tag green">Soybeans</span>
+        <span class="tag green">Sprouted Pulses</span>
+        <span class="tag green">Milk 🥛</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carbs Card -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">🌾</div>
+        <div>
+          <div class="card-label english">Carbohydrates — Energy Source</div>
+          <div class="card-label hindi">कार्बोहाइड्रेट — ऊर्जा का स्रोत</div>
+          <div class="card-sub english">Choose complex carbs · Avoid refined</div>
+          <div class="card-sub hindi">जटिल कार्ब चुनें · रिफाइंड से बचें</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block green">
+        <h4 class="english">✅ Good Carbs (Eat these)</h4>
+        <h4 class="hindi">✅ अच्छे कार्ब (ये खाएं)</h4>
+        <ul>
+          <li class="english">Brown rice, millets (bajra, jowar, ragi), oats</li>
+          <li class="hindi">ब्राउन राइस, मिलेट्स (बाजरा, ज्वार, रागी), ओट्स</li>
+          <li class="english">Sweet potato, vegetables, fruits with skin</li>
+          <li class="hindi">शकरकंद, सब्जियां, छिलके वाले फल</li>
+          <li class="english">Whole wheat roti (limit to 2–3/day)</li>
+          <li class="hindi">गेहूं की रोटी (दिन में 2–3 तक सीमित)</li>
+        </ul>
+      </div>
+      <div class="info-block red">
+        <h4 class="english">❌ Bad Carbs (Avoid)</h4>
+        <h4 class="hindi">❌ बुरे कार्ब (इनसे बचें)</h4>
+        <ul>
+          <li class="english">White bread, maida, biscuits, namkeen</li>
+          <li class="hindi">सफेद ब्रेड, मैदा, बिस्कुट, नमकीन</li>
+          <li class="english">White rice in large quantity, packaged foods</li>
+          <li class="hindi">ज़्यादा सफेद चावल, पैकेट का खाना</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fats Card -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon blue">🥑</div>
+        <div>
+          <div class="card-label english">Fats — Brain &amp; Heart Food</div>
+          <div class="card-label hindi">फैट — दिमाग और दिल का खाना</div>
+          <div class="card-sub english">Good fats are ESSENTIAL · Don't fear them</div>
+          <div class="card-sub hindi">अच्छे फैट जरूरी हैं · डरें नहीं</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block green">
+        <h4 class="english">✅ Good Fats — Eat Daily</h4>
+        <h4 class="hindi">✅ अच्छे फैट — रोज़ खाएं</h4>
+        <ul>
+          <li class="english">Ghee (1–2 tsp/day) — best for Indians over 50</li>
+          <li class="hindi">घी (1–2 चम्मच/दिन) — 50+ के लिए सर्वश्रेष्ठ</li>
+          <li class="english">Nuts: 5 almonds + 2 walnuts daily (must have)</li>
+          <li class="hindi">बादाम 5 + अखरोट 2 रोज़ (ज़रूरी)</li>
+          <li class="english">Flaxseeds / Chia seeds (1 tsp daily)</li>
+          <li class="hindi">अलसी / चिया सीड्स (1 चम्मच रोज़)</li>
+          <li class="english">Cold-pressed coconut or mustard oil for cooking</li>
+          <li class="hindi">नारियल या सरसों का तेल (कोल्ड-प्रेस्ड)</li>
+        </ul>
+      </div>
+      <div class="info-block red">
+        <h4 class="english">❌ Avoid These Fats</h4>
+        <h4 class="hindi">❌ इनसे बचें</h4>
+        <ul>
+          <li class="english">Refined oil (sunflower, soybean, vanaspati)</li>
+          <li class="hindi">रिफाइंड तेल (सनफ्लावर, सोयाबीन, वनस्पति)</li>
+          <li class="english">Deep fried food, packaged chips, bakery items</li>
+          <li class="hindi">तला हुआ खाना, पैकेट चिप्स, बेकरी आइटम</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fiber Card -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">🌿</div>
+        <div>
+          <div class="card-label english">Fiber — Your Gut's Best Friend</div>
+          <div class="card-label hindi">फाइबर — आपके पेट का दोस्त</div>
+          <div class="card-sub english">25–30g/day · Controls sugar &amp; cholesterol</div>
+          <div class="card-sub hindi">25–30 ग्राम/दिन · शुगर और कोलेस्ट्रॉल नियंत्रित करे</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block">
+        <h4 class="english">Why it matters at 50+</h4>
+        <h4 class="hindi">50+ में क्यों ज़रूरी है</h4>
+        <ul>
+          <li class="english">Prevents constipation (very common after 50)</li>
+          <li class="hindi">कब्ज़ रोकता है (50 के बाद बहुत आम)</li>
+          <li class="english">Lowers bad cholesterol (LDL)</li>
+          <li class="hindi">बुरा कोलेस्ट्रॉल (LDL) घटाता है</li>
+          <li class="english">Controls blood sugar spikes</li>
+          <li class="hindi">ब्लड शुगर को नियंत्रित करता है</li>
+        </ul>
+      </div>
+      <div class="tag-row">
+        <span class="tag green">Sabzi with skin 🥦</span>
+        <span class="tag green">Dal 🫘</span>
+        <span class="tag green">Fruits 🍎</span>
+        <span class="tag green">Oats</span>
+        <span class="tag green">Flaxseeds</span>
+        <span class="tag green">Sprouts</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Micronutrients -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon purple">🔬</div>
+        <div>
+          <div class="card-label english">Key Micronutrients for 50+</div>
+          <div class="card-label hindi">50+ के लिए ज़रूरी विटामिन-मिनरल</div>
+          <div class="card-sub english">Calcium, B12, D3, Iron, Magnesium</div>
+          <div class="card-sub hindi">कैल्शियम, B12, D3, आयरन, मैग्नेशियम</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block">
+        <h4>🦴 Calcium — 1000–1200 mg/day</h4>
+        <ul>
+          <li class="english">Critical for bones after 50. Milk, curd, paneer, ragi, sesame seeds (til)</li>
+          <li class="hindi">हड्डियों के लिए ज़रूरी। दूध, दही, पनीर, रागी, तिल</li>
+        </ul>
+      </div>
+      <div class="info-block blue">
+        <h4>💊 Vitamin B12 — Supplement needed</h4>
+        <ul>
+          <li class="english">Only in animal products. Vegans MUST supplement. Deficiency causes nerve damage, fatigue</li>
+          <li class="hindi">सिर्फ जानवरों से मिलता है। शाकाहारियों को सप्लीमेंट लेना ज़रूरी। कमी से नसें कमज़ोर</li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h4>☀️ Vitamin D3 — 600–800 IU/day</h4>
+        <ul>
+          <li class="english">15–20 min morning sun (before 9am). Otherwise supplement</li>
+          <li class="hindi">सुबह 9 बजे से पहले 15-20 मिनट धूप। वरना सप्लीमेंट लें</li>
+        </ul>
+      </div>
+      <div class="info-block green">
+        <h4>🩸 Iron — 8–18 mg/day</h4>
+        <ul>
+          <li class="english">Spinach, rajma, dried apricots, jaggery. Eat with Vitamin C for better absorption</li>
+          <li class="hindi">पालक, राजमा, खजूर, गुड़। विटामिन C के साथ खाएं</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="section-label english">📹 Watch &amp; Learn (Hindi)</div>
+  <div class="section-label hindi">📹 देखें और समझें</div>
+  <a href="https://www.youtube.com/results?search_query=protein+sources+for+vegetarians+50+age+hindi+fit+tuber" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>प्रोटीन के शाकाहारी स्रोत</strong>
+      <span>Vegetarian Protein for 50+ · Hindi · FitTuber</span>
+    </div>
+  </a>
+  <a href="https://www.youtube.com/results?search_query=vitamin+B12+deficiency+vegetarians+india+hindi" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>B12 की कमी — शाकाहारियों के लिए</strong>
+      <span>B12 Deficiency in Vegetarians · Hindi</span>
+    </div>
+  </a>
+</div>
+
+<!-- ==================== TAB: MEALS ==================== -->
+<div id="tab-meals" class="tab-content">
+  <div class="section-hero" data-emoji="🍱">
+    <h2 class="english">Daily Meal Plan</h2>
+    <h2 class="hindi">रोज़ाना भोजन योजना</h2>
+    <p class="english">Pure Veg · Indian · Balanced · 1700–1900 kcal</p>
+    <p class="hindi">शुद्ध शाकाहारी · भारतीय · संतुलित · 1700–1900 kcाल</p>
+  </div>
+
+  <!-- Breakfast -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">🌅</div>
+        <div>
+          <div class="card-label english">Breakfast · 7:00–8:30 AM</div>
+          <div class="card-label hindi">सुबह का नाश्ता · 7:00–8:30 बजे</div>
+          <div class="card-sub english">High protein start · No sugar · ~350–400 kcal</div>
+          <div class="card-sub hindi">प्रोटीन से भरपूर शुरुआत · ~350–400 कैलोरी</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block green">
+        <h4 class="english">🥇 Best Options (Rotate daily)</h4>
+        <h4 class="hindi">🥇 सर्वश्रेष्ठ विकल्प (रोज़ बदलें)</h4>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">MON / WED</div>
+        <div class="meal-content">
+          <strong class="english">Moong Dal Chilla (2) + Curd + Mint Chutney</strong>
+          <strong class="hindi">मूंग दाल चीला (2) + दही + पुदीना चटनी</strong>
+          <span class="english">High protein · Easy digest · Great for gut</span>
+          <span class="hindi">उच्च प्रोटीन · पचने में आसान</span>
+        </div>
+        <div class="meal-kcal">~380</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">TUE / THU</div>
+        <div class="meal-content">
+          <strong class="english">Oats Khichdi / Vegetable Poha (No potato)</strong>
+          <strong class="hindi">ओट्स खिचड़ी / सब्ज़ी पोहा (आलू नहीं)</strong>
+          <span class="english">Add flaxseeds + 1 tsp ghee for nutrition boost</span>
+          <span class="hindi">अलसी + 1 चम्मच घी डालें</span>
+        </div>
+        <div class="meal-kcal">~350</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">FRI / SAT</div>
+        <div class="meal-content">
+          <strong class="english">2 Idli + Sambar (dal) + Coconut Chutney</strong>
+          <strong class="hindi">2 इडली + सांभर + नारियल चटनी</strong>
+          <span class="english">Fermented = probiotic · Excellent for digestion</span>
+          <span class="hindi">किण्वित = प्रोबायोटिक · पाचन के लिए उत्तम</span>
+        </div>
+        <div class="meal-kcal">~360</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">SUN</div>
+        <div class="meal-content">
+          <strong class="english">Besan Chilla / Palak Paneer Paratha (1) + Curd</strong>
+          <strong class="hindi">बेसन चीला / पालक पनीर पराठा (1) + दही</strong>
+          <span class="english">Weekend special · Don't skip protein</span>
+          <span class="hindi">वीकेंड स्पेशल · प्रोटीन ज़रूर लें</span>
+        </div>
+        <div class="meal-kcal">~420</div>
+      </div>
+      <div class="info-block">
+        <h4 class="english">📌 Always have with breakfast:</h4>
+        <h4 class="hindi">📌 नाश्ते के साथ ज़रूर लें:</h4>
+        <ul>
+          <li class="english">5 soaked almonds + 2 walnuts (soaked overnight)</li>
+          <li class="hindi">5 भीगे बादाम + 2 अखरोट (रात भर भिगोए)</li>
+          <li class="english">1 glass warm water with lemon before eating</li>
+          <li class="hindi">खाने से पहले 1 गिलास गर्म पानी + नींबू</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brunch/Mid Morning -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">🌤️</div>
+        <div>
+          <div class="card-label english">Mid-Morning · 10:30–11:00 AM</div>
+          <div class="card-label hindi">बीच का नाश्ता · 10:30–11:00 बजे</div>
+          <div class="card-sub english">Light · Hydrating · ~100–150 kcal</div>
+          <div class="card-sub hindi">हल्का · हाइड्रेटिंग · ~100–150 कैलोरी</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="meal-row">
+        <div class="meal-time">Option 1</div>
+        <div class="meal-content">
+          <strong class="english">1 Seasonal Fruit (Guava / Papaya / Apple / Pear)</strong>
+          <strong class="hindi">1 मौसमी फल (अमरूद / पपीता / सेब / नाशपाती)</strong>
+          <span class="english">Avoid mango + banana if diabetic / overweight</span>
+          <span class="hindi">डायबिटीज / वज़न हो तो आम-केला से बचें</span>
+        </div>
+        <div class="meal-kcal">~100</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Option 2</div>
+        <div class="meal-content">
+          <strong class="english">Coconut water + 1 tbsp pumpkin seeds</strong>
+          <strong class="hindi">नारियल पानी + 1 चम्मच कद्दू के बीज</strong>
+          <span class="english">Electrolytes + zinc + magnesium</span>
+          <span class="hindi">इलेक्ट्रोलाइट + जिंक + मैग्नेशियम</span>
+        </div>
+        <div class="meal-kcal">~120</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Option 3</div>
+        <div class="meal-content">
+          <strong class="english">Chaach / Buttermilk (jeera + sendha namak)</strong>
+          <strong class="hindi">छाछ / मट्ठा (जीरा + सेंधा नमक)</strong>
+          <span class="english">Best probiotic drink for Indians · Aids digestion</span>
+          <span class="hindi">भारतीयों के लिए सबसे अच्छा प्रोबायोटिक</span>
+        </div>
+        <div class="meal-kcal">~60</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lunch -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">☀️</div>
+        <div>
+          <div class="card-label english">Lunch · 1:00–2:00 PM</div>
+          <div class="card-label hindi">दोपहर का खाना · 1:00–2:00 बजे</div>
+          <div class="card-sub english">Biggest meal · Balanced plate · ~500–550 kcal</div>
+          <div class="card-sub hindi">सबसे बड़ा भोजन · संतुलित थाली · ~500–550 कैलोरी</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="highlight">
+        <h3 class="english">🎯 The Perfect Indian Lunch Plate</h3>
+        <h3 class="hindi">🎯 आदर्श भारतीय दोपहर की थाली</h3>
+        <ul>
+          <li class="english">1 katori Dal (moong/masoor/toor — rotate) = Protein</li>
+          <li class="hindi">1 कटोरी दाल (मूंग/मसूर/तूर — बदलते रहें) = प्रोटीन</li>
+          <li class="english">1–2 Roti (whole wheat / multigrain) = Complex Carbs</li>
+          <li class="hindi">1–2 रोटी (गेहूं / मल्टीग्रेन) = कार्बोहाइड्रेट</li>
+          <li class="english">1 katori Sabzi (seasonal veg, less oil) = Vitamins</li>
+          <li class="hindi">1 कटोरी सब्ज़ी (मौसमी, कम तेल) = विटामिन</li>
+          <li class="english">1 katori Curd (plain, no sugar) = Probiotic</li>
+          <li class="hindi">1 कटोरी दही (सादा, बिना चीनी) = प्रोबायोटिक</li>
+          <li class="english">Bowl of salad (cucumber, carrot, beetroot, onion)</li>
+          <li class="hindi">सलाद का कटोरा (खीरा, गाजर, चुकंदर, प्याज़)</li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h4 class="english">💡 Pro Tips for Lunch</h4>
+        <h4 class="hindi">💡 दोपहर के खाने के लिए टिप्स</h4>
+        <ul>
+          <li class="english">Eat salad FIRST — slows sugar absorption</li>
+          <li class="hindi">पहले सलाद खाएं — शुगर धीरे बढ़ती है</li>
+          <li class="english">Add 1 tsp ghee on roti or dal</li>
+          <li class="hindi">रोटी या दाल पर 1 चम्मच घी डालें</li>
+          <li class="english">Add haldi + jeera in sabzi (anti-inflammatory)</li>
+          <li class="hindi">सब्ज़ी में हल्दी + जीरा डालें (सूजन रोके)</li>
+          <li class="english">10–15 min walk after lunch — most important!</li>
+          <li class="hindi">दोपहर के बाद 10–15 मिनट टहलें — बहुत ज़रूरी!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Evening Snack -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">🌇</div>
+        <div>
+          <div class="card-label english">Evening Snack · 4:30–5:30 PM</div>
+          <div class="card-label hindi">शाम का नाश्ता · 4:30–5:30 बजे</div>
+          <div class="card-sub english">Energy booster · No fried items · ~150–200 kcal</div>
+          <div class="card-sub hindi">ऊर्जा बढ़ाएं · तला नहीं · ~150–200 कैलोरी</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="meal-row">
+        <div class="meal-time">Best</div>
+        <div class="meal-content">
+          <strong class="english">Roasted Makhana (1 cup) + Herbal Tea</strong>
+          <strong class="hindi">भुना मखाना (1 कप) + हर्बल चाय</strong>
+          <span class="english">Low cal, high protein, calcium-rich</span>
+          <span class="hindi">कम कैलोरी, उच्च प्रोटीन, कैल्शियम भरपूर</span>
+        </div>
+        <div class="meal-kcal">~160</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Option 2</div>
+        <div class="meal-content">
+          <strong class="english">Roasted Chana (handful) + Jaggery piece (small)</strong>
+          <strong class="hindi">भुना चना (मुट्ठी भर) + गुड़ का छोटा टुकड़ा</strong>
+          <span class="english">Iron + fiber combo. Traditional and powerful</span>
+          <span class="hindi">आयरन + फाइबर। परंपरागत और शक्तिशाली</span>
+        </div>
+        <div class="meal-kcal">~180</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Option 3</div>
+        <div class="meal-content">
+          <strong class="english">Sprouts Chaat (moong + tomato + lemon + coriander)</strong>
+          <strong class="hindi">स्प्राउट चाट (मूंग + टमाटर + नींबू + धनिया)</strong>
+          <span class="english">Highest protein snack · No oil needed</span>
+          <span class="hindi">सबसे ज़्यादा प्रोटीन · तेल की ज़रूरत नहीं</span>
+        </div>
+        <div class="meal-kcal">~150</div>
+      </div>
+      <div class="info-block red">
+        <h4 class="english">❌ Never Eat at Snack Time:</h4>
+        <h4 class="hindi">❌ शाम को भूलकर न खाएं:</h4>
+        <p class="english">Biscuits, namkeen, pakoda, samosa, chai with sugar, chips</p>
+        <p class="hindi">बिस्कुट, नमकीन, पकौड़ा, समोसा, चीनी वाली चाय, चिप्स</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dinner -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon brown">🌙</div>
+        <div>
+          <div class="card-label english">Dinner · 7:00–8:00 PM</div>
+          <div class="card-label hindi">रात का खाना · 7:00–8:00 बजे</div>
+          <div class="card-sub english">Light · Early · Easy digest · ~400–450 kcal</div>
+          <div class="card-sub hindi">हल्का · जल्दी · आसान पाचन · ~400–450 कैलोरी</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="highlight">
+        <h3 class="english">🌙 Golden Rules for Dinner</h3>
+        <h3 class="hindi">🌙 रात के खाने के सुनहरे नियम</h3>
+        <ul>
+          <li class="english">Eat by 8 PM. 3–4 hours gap before sleep = better digestion</li>
+          <li class="hindi">रात 8 बजे तक खाएं। सोने से 3–4 घंटे पहले</li>
+          <li class="english">Lighter than lunch — metabolism slows at night</li>
+          <li class="hindi">दोपहर से हल्का खाएं — रात को पाचन धीमा होता है</li>
+        </ul>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Best</div>
+        <div class="meal-content">
+          <strong class="english">Moong Dal Khichdi + Curd + Sabzi</strong>
+          <strong class="hindi">मूंग दाल खिचड़ी + दही + सब्ज़ी</strong>
+          <span class="english">Easiest to digest. Best dinner for 50+</span>
+          <span class="hindi">पचने में सबसे आसान। 50+ के लिए सर्वोत्तम रात्रि भोजन</span>
+        </div>
+        <div class="meal-kcal">~420</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Option 2</div>
+        <div class="meal-content">
+          <strong class="english">Vegetable Soup + 1 Roti + Sabzi</strong>
+          <strong class="hindi">सब्ज़ी का सूप + 1 रोटी + सब्ज़ी</strong>
+          <span class="english">Anti-inflammatory, warm, light</span>
+          <span class="hindi">सूजन-रोधी, गर्म, हल्का</span>
+        </div>
+        <div class="meal-kcal">~380</div>
+      </div>
+      <div class="meal-row">
+        <div class="meal-time">Option 3</div>
+        <div class="meal-content">
+          <strong class="english">Dal Soup + Paneer Bhurji (100g) + 1 Roti</strong>
+          <strong class="hindi">दाल सूप + पनीर भुर्जी (100 ग्राम) + 1 रोटी</strong>
+          <span class="english">Protein-rich dinner, especially if skipped protein at lunch</span>
+          <span class="hindi">प्रोटीन युक्त रात्रि भोजन</span>
+        </div>
+        <div class="meal-kcal">~450</div>
+      </div>
+      <div class="info-block">
+        <h4 class="english">🥛 Bedtime (1 hour before sleep)</h4>
+        <h4 class="hindi">🥛 सोने से पहले (1 घंटा पहले)</h4>
+        <p class="english">1 glass warm turmeric milk (haldi doodh) — anti-inflammatory, aids sleep, strengthens bones</p>
+        <p class="hindi">1 गिलास गर्म हल्दी वाला दूध — सूजन रोके, नींद अच्छी आए, हड्डियां मज़बूत करे</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://www.youtube.com/results?search_query=indian+diet+plan+50+age+weight+loss+hindi+healthy" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>50+ के लिए पूरे दिन का डाइट प्लान</strong>
+      <span>Full Day Diet for 50+ Indians · Hindi</span>
+    </div>
+  </a>
+</div>
+
+<!-- ==================== TAB: RULES ==================== -->
+<div id="tab-rules" class="tab-content">
+  <div class="section-hero" data-emoji="⚠️">
+    <h2 class="english">Non-Negotiables &amp; Must-Haves</h2>
+    <h2 class="hindi">अटल नियम और ज़रूरी चीज़ें</h2>
+    <p class="english">These rules are not optional — they're the foundation</p>
+    <p class="hindi">ये नियम वैकल्पिक नहीं हैं — ये नींव हैं</p>
+  </div>
+
+  <!-- AVOID -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon red">❌</div>
+        <div>
+          <div class="card-label english">ZERO Tolerance — Never Consume</div>
+          <div class="card-label hindi">बिल्कुल नहीं — ये कभी न खाएं</div>
+          <div class="card-sub english">These accelerate aging, disease &amp; inflammation</div>
+          <div class="card-sub hindi">ये बुढ़ापा, बीमारी और सूजन बढ़ाते हैं</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <ul class="check-list">
+        <li><div class="check-dot no">✗</div><div><strong class="english">White Sugar</strong><strong class="hindi">सफेद चीनी</strong><br><span class="english">Switch to jaggery / dates / stevia. Max 1 tsp/day if unavoidable</span><span class="hindi">गुड़ / खजूर / स्टेविया लें। मजबूरी हो तो 1 चम्मच से ज़्यादा नहीं</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Maida (All-purpose flour)</strong><strong class="hindi">मैदा</strong><br><span class="english">No bread, naan, biscuits, cakes, pav, bhatura, pizza</span><span class="hindi">ब्रेड, नान, बिस्कुट, केक, पाव, भटूरा, पिज्ज़ा नहीं</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Refined Oil</strong><strong class="hindi">रिफाइंड तेल</strong><br><span class="english">Sunflower, soybean, palmolein — all inflammatory. Use mustard/coconut/ghee</span><span class="hindi">सनफ्लावर, सोयाबीन, पामोलीन — सूजन बढ़ाएं। सरसों/नारियल/घी इस्तेमाल करें</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Packaged &amp; Ultra-processed Foods</strong><strong class="hindi">पैकेट बंद और अल्ट्रा-प्रोसेस्ड खाना</strong><br><span class="english">Chips, namkeen, ready-to-eat, instant noodles, sauces with preservatives</span><span class="hindi">चिप्स, नमकीन, रेडी-टू-ईट, मैगी, पैकेट सॉस</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Cold Drinks &amp; Packaged Juices</strong><strong class="hindi">कोल्ड ड्रिंक और पैकेट जूस</strong><br><span class="english">Pure liquid sugar. Destroys gut bacteria, spikes insulin</span><span class="hindi">सीधी चीनी। आंत के बैक्टीरिया नष्ट करे, इंसुलिन बढ़ाए</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Table Salt in Excess</strong><strong class="hindi">ज़्यादा नमक</strong><br><span class="english">Max 5g (1 tsp) per day. High BP worsens with excess salt</span><span class="hindi">अधिकतम 5 ग्राम (1 चम्मच) प्रतिदिन। ब्लड प्रेशर बढ़ता है</span></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MUST HAVES -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">✅</div>
+        <div>
+          <div class="card-label english">MUST-HAVES — Daily Non-Negotiables</div>
+          <div class="card-label hindi">रोज़ ज़रूर करें — ये न छोड़ें</div>
+          <div class="card-sub english">Science-backed daily essentials for 50+</div>
+          <div class="card-sub hindi">वैज्ञानिक रूप से सिद्ध दैनिक ज़रूरतें</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <ul class="check-list">
+        <li><div class="check-dot yes">✓</div><div><strong>💧 3–4 Litres of Water Daily</strong><br><span class="english">Start with 2 glasses warm water on empty stomach. Prevents kidney stones, constipation, dehydration</span><span class="hindi">खाली पेट 2 गिलास गर्म पानी से शुरुआत। किडनी, कब्ज़, डिहाइड्रेशन से बचाव</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong>🥜 Daily Dry Fruits (soaked)</strong><br><span class="english">5 almonds + 2 walnuts + 4 raisins + 1 fig. Soak overnight. Brain, heart, joints</span><span class="hindi">5 बादाम + 2 अखरोट + 4 किशमिश + 1 अंजीर। रात भर भिगोएं।</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong>🫘 Protein at Every Meal</strong><br><span class="english">Dal / paneer / curd / sprouts at breakfast, lunch AND dinner</span><span class="hindi">नाश्ते, दोपहर और रात — तीनों में दाल/पनीर/दही/स्प्राउट</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong>☀️ 15 Min Morning Sun</strong><br><span class="english">Before 9 AM. Arms &amp; legs exposed. Vitamin D + mood boost + immunity</span><span class="hindi">सुबह 9 बजे से पहले। हाथ-पैर खुले रखें। विटामिन D + मूड + इम्युनिटी</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong>🥗 Raw Salad at Lunch</strong><br><span class="english">Cucumber + tomato + onion + lemon + rock salt. Eat BEFORE main meal</span><span class="hindi">खीरा + टमाटर + प्याज़ + नींबू + सेंधा नमक। खाने से पहले खाएं</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong>🌿 1 tsp Flaxseeds Daily</strong><br><span class="english">Grind and add to roti dough / dahi / sabzi. Best plant source of Omega-3</span><span class="hindi">पीसकर आटे/दही/सब्ज़ी में मिलाएं। ओमेगा-3 का सर्वश्रेष्ठ स्रोत</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong>🕗 Eat dinner by 8 PM</strong><br><span class="english">12-hour gap between dinner and next meal = gut repair, weight management</span><span class="hindi">रात के खाने और अगले खाने में 12 घंटे का अंतर = पेट की मरम्मत</span></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Calorie Deficit Note -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">⚖️</div>
+        <div>
+          <div class="card-label english">Calorie Awareness (Not strict counting)</div>
+          <div class="card-label hindi">कैलोरी जागरूकता (सख्त गिनती नहीं)</div>
+          <div class="card-sub english">Gentle deficit for weight management</div>
+          <div class="card-sub hindi">वज़न प्रबंधन के लिए हल्का घाटा</div>
+        </div>
+      </div>
+      <div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block">
+        <h4 class="english">The Plate Method (No counting needed)</h4>
+        <h4 class="hindi">थाली विधि (गिनने की ज़रूरत नहीं)</h4>
+        <ul>
+          <li class="english">½ plate = vegetables &amp; salad</li>
+          <li class="hindi">½ थाली = सब्ज़ियां और सलाद</li>
+          <li class="english">¼ plate = whole grain (roti/rice)</li>
+          <li class="hindi">¼ थाली = साबुत अनाज (रोटी/चावल)</li>
+          <li class="english">¼ plate = protein (dal/paneer/curd)</li>
+          <li class="hindi">¼ थाली = प्रोटीन (दाल/पनीर/दही)</li>
+        </ul>
+      </div>
+      <div class="info-block green">
+        <h4 class="english">💡 Eat Mindfully</h4>
+        <h4 class="hindi">💡 ध्यान से खाएं</h4>
+        <ul>
+          <li class="english">Chew 20–30 times per bite — activates digestion enzymes</li>
+          <li class="hindi">हर निवाला 20–30 बार चबाएं — पाचन एंजाइम सक्रिय होते हैं</li>
+          <li class="english">Stop when 80% full (Japanese Hara Hachi Bu rule)</li>
+          <li class="hindi">80% भरने पर रुकें — पेट भरा महसूस होने में 20 मिनट लगते हैं</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== TAB: DIGESTION ==================== -->
+<div id="tab-digestion" class="tab-content active">
+  <div class="section-hero" data-emoji="🫁">
+    <h2 class="english">Digestion Mastery</h2>
+    <h2 class="hindi">पाचन शक्ति बढ़ाएं</h2>
+    <p class="english">The gut is the second brain · Most health starts here</p>
+    <p class="hindi">आंत दूसरा दिमाग है · ज़्यादातर सेहत यहीं से शुरू होती है</p>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">🌅</div>
+        <div>
+          <div class="card-label english">Morning Routine for Great Digestion</div>
+          <div class="card-label hindi">पाचन के लिए सुबह की दिनचर्या</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <ul class="check-list">
+        <li><div class="check-dot tip">1</div><div><strong class="english">Wake up at same time daily (6–7 AM)</strong><strong class="hindi">रोज़ एक ही समय उठें (सुबह 6–7 बजे)</strong><br><span class="english">Circadian rhythm regulates gut motility</span><span class="hindi">सर्केडियन रिदम पाचन को नियंत्रित करती है</span></div></li>
+        <li><div class="check-dot tip">2</div><div><strong class="english">2 glasses warm water (with lemon, empty stomach)</strong><strong class="hindi">2 गिलास गर्म पानी (नींबू के साथ, खाली पेट)</strong><br><span class="english">Kickstarts bowel movement, flushes toxins</span><span class="hindi">आंत हिलाता है, विषाक्त पदार्थ निकालता है</span></div></li>
+        <li><div class="check-dot tip">3</div><div><strong class="english">Don't skip breakfast — eat within 1 hour of waking</strong><strong class="hindi">नाश्ता न छोड़ें — उठने के 1 घंटे में खाएं</strong></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">🌿</div>
+        <div>
+          <div class="card-label english">Best Indian Digestive Foods</div>
+          <div class="card-label hindi">सर्वश्रेष्ठ भारतीय पाचक खाद्य पदार्थ</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block green">
+        <h4>🫚 Jeera (Cumin) Water</h4>
+        <p class="english">Boil 1 tsp jeera in 2 cups water. Drink warm. Best for bloating, gas, slow digestion</p>
+        <p class="hindi">1 चम्मच जीरा 2 कप पानी में उबालें। गर्म पिएं। गैस, पेट फूलना, सुस्त पाचन के लिए</p>
+      </div>
+      <div class="info-block">
+        <h4>🌱 Ajwain (Carom Seeds)</h4>
+        <p class="english">½ tsp ajwain + pinch of black salt with warm water after meals. Instant relief from gas</p>
+        <p class="hindi">खाने के बाद ½ चम्मच अजवाइन + काला नमक गर्म पानी से। गैस में तुरंत राहत</p>
+      </div>
+      <div class="info-block">
+        <h4>🍵 Haldi + Ginger Tea (instead of regular chai)</h4>
+        <p class="english">Anti-inflammatory. Reduces bloating. Replace 1 cup of regular tea/day with this</p>
+        <p class="hindi">सूजन-रोधी। पेट फूलना कम करे। 1 कप चाय की जगह यह पिएं</p>
+      </div>
+      <div class="info-block green">
+        <h4>🥛 Chaach after lunch (not cold)</h4>
+        <p class="english">Best probiotic for Indian gut. Add jeera + hing + sendha namak</p>
+        <p class="hindi">भारतीय पेट के लिए सर्वश्रेष्ठ प्रोबायोटिक। जीरा + हींग + सेंधा नमक डालें</p>
+      </div>
+      <div class="info-block">
+        <h4>🌿 Triphala at night (optional)</h4>
+        <p class="english">½ tsp with warm water at bedtime. Ancient Ayurvedic gut cleanse. Very effective for 50+</p>
+        <p class="hindi">सोते समय ½ चम्मच गर्म पानी से। प्राचीन आयुर्वेदिक आंत सफाई। 50+ के लिए अत्यंत प्रभावी</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon red">⚠️</div>
+        <div>
+          <div class="card-label english">Habits That Destroy Digestion</div>
+          <div class="card-label hindi">पाचन बर्बाद करने वाली आदतें</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <ul class="check-list">
+        <li><div class="check-dot no">✗</div><div><strong class="english">Drinking water during meals</strong><strong class="hindi">खाते समय पानी पीना</strong><br><span class="english">Dilutes digestive juices. Drink 30 min before or after</span><span class="hindi">पाचक रस पतले हो जाते हैं। 30 मिनट पहले या बाद में पिएं</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Eating too fast or while watching TV</strong><strong class="hindi">जल्दी खाना या TV देखते हुए खाना</strong><br><span class="english">Brain needs to register satiety. Leads to overeating + poor digestion</span><span class="hindi">दिमाग को भरा महसूस करने में समय चाहिए। ज़्यादा खाना और खराब पाचन</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Lying down immediately after eating</strong><strong class="hindi">खाने के तुरंत बाद लेटना</strong><br><span class="english">Wait 30 min minimum. Walk 10 min instead</span><span class="hindi">कम से कम 30 मिनट रुकें। 10 मिनट टहलें</span></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Cold water / cold curd with hot food</strong><strong class="hindi">गर्म खाने के साथ ठंडा पानी/दही</strong><br><span class="english">Constricts digestive tract, causes ama (toxins) buildup</span><span class="hindi">पाचन नली सिकुड़ती है, आम (विषाक्त) जमा होता है</span></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <a href="https://www.youtube.com/results?search_query=digestion+tips+hindi+ayurveda+50+age+gut+health" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>पाचन शक्ति कैसे बढ़ाएं — आयुर्वेद</strong>
+      <span>Improve Digestion Naturally · Hindi</span>
+    </div>
+  </a>
+</div>
+
+<!-- ==================== TAB: MOVEMENT ==================== -->
+<div id="tab-movement" class="tab-content">
+  <div class="section-hero" data-emoji="🏃">
+    <h2 class="english">Daily Body Movement</h2>
+    <h2 class="hindi">रोज़ाना शरीर हिलाएं</h2>
+    <p class="english">Sitting is the new smoking · Move every 45 minutes</p>
+    <p class="hindi">बैठे रहना नया धूम्रपान है · हर 45 मिनट में उठें</p>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">🌅</div>
+        <div>
+          <div class="card-label english">Morning Movement (30 min)</div>
+          <div class="card-label hindi">सुबह की गतिविधि (30 मिनट)</div>
+          <div class="card-sub english">Non-negotiable · Before breakfast ideally</div>
+          <div class="card-sub hindi">ज़रूरी · नाश्ते से पहले</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block green">
+        <h4 class="english">🚶 Brisk Walking — Best for 50+</h4>
+        <h4 class="hindi">🚶 तेज़ चाल — 50+ के लिए सर्वश्रेष्ठ</h4>
+        <p class="english">30 min brisk walk = reduced heart disease risk by 35%, better insulin sensitivity, stronger bones. Start with 15 min if starting fresh.</p>
+        <p class="hindi">30 मिनट तेज़ चाल = हृदय रोग 35% कम, बेहतर इंसुलिन, मज़बूत हड्डियां। शुरुआत में 15 मिनट से शुरू करें।</p>
+      </div>
+      <div class="info-block">
+        <h4 class="english">🧘 Yoga / Pranayama — 15 min</h4>
+        <h4 class="hindi">🧘 योग / प्राणायाम — 15 मिनट</h4>
+        <ul>
+          <li class="english">Anulom Vilom (5 min) — heart + lungs</li>
+          <li class="hindi">अनुलोम विलोम (5 मिनट) — हृदय + फेफड़े</li>
+          <li class="english">Kapalbhati (5 min, gentle) — digestion + belly fat</li>
+          <li class="hindi">कपालभाति (5 मिनट, हल्का) — पाचन + पेट की चर्बी</li>
+          <li class="english">Bhramari (3 min) — stress, blood pressure</li>
+          <li class="hindi">भ्रामरी (3 मिनट) — तनाव, ब्लड प्रेशर</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">☀️</div>
+        <div>
+          <div class="card-label english">During the Day — Move More</div>
+          <div class="card-label hindi">दिन भर — ज़्यादा हिलें-डुलें</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <ul class="check-list">
+        <li><div class="check-dot tip">💡</div><div><strong class="english">10 min walk after every meal</strong><strong class="hindi">हर खाने के बाद 10 मिनट टहलें</strong><br><span class="english">Proven to lower blood sugar by 22% post-meal</span><span class="hindi">खाने के बाद ब्लड शुगर 22% कम होती है</span></div></li>
+        <li><div class="check-dot tip">💡</div><div><strong class="english">Stand up every 45 minutes</strong><strong class="hindi">हर 45 मिनट में खड़े हों</strong><br><span class="english">Set a phone alarm. Walk to kitchen, do 10 squats</span><span class="hindi">फोन अलार्म लगाएं। किचन तक जाएं, 10 स्क्वाट करें</span></div></li>
+        <li><div class="check-dot tip">💡</div><div><strong class="english">Stairs over lift whenever possible</strong><strong class="hindi">जब भी हो, लिफ्ट की जगह सीढ़ियां</strong></div></li>
+        <li><div class="check-dot tip">💡</div><div><strong class="english">Evening walk — 20 min</strong><strong class="hindi">शाम की सैर — 20 मिनट</strong><br><span class="english">6–7 PM. Best for stress relief + sleep quality</span><span class="hindi">शाम 6–7 बजे। तनाव और नींद के लिए</span></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon brown">💪</div>
+        <div>
+          <div class="card-label english">Strength Training (2x week minimum)</div>
+          <div class="card-label hindi">शक्ति प्रशिक्षण (हफ्ते में 2 बार)</div>
+          <div class="card-sub english">Critical to prevent muscle loss after 50</div>
+          <div class="card-sub hindi">50 के बाद मांसपेशी बचाने के लिए ज़रूरी</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block">
+        <h4 class="english">Simple Home Exercises (No gym needed)</h4>
+        <h4 class="hindi">घर पर आसान व्यायाम (जिम की ज़रूरत नहीं)</h4>
+        <ul>
+          <li class="english">Wall squats — 3 sets of 10 (strengthens knees + thighs)</li>
+          <li class="hindi">वॉल स्क्वाट — 3 सेट × 10 (घुटने और जांघें मज़बूत)</li>
+          <li class="english">Chair squats — best for joint-friendly lower body</li>
+          <li class="hindi">कुर्सी स्क्वाट — जोड़ों के लिए सुरक्षित</li>
+          <li class="english">Wall push-ups — 3 sets of 10 (upper body)</li>
+          <li class="hindi">वॉल पुश-अप — 3 सेट × 10 (ऊपरी शरीर)</li>
+          <li class="english">Calf raises while standing — 20 reps (circulation)</li>
+          <li class="hindi">खड़े रहकर पंजों पर उठें — 20 बार (रक्त संचार)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://www.youtube.com/results?search_query=yoga+exercise+50+age+hindi+morning+routine+seniorcitizen" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>50+ के लिए सुबह का योग और व्यायाम</strong>
+      <span>Morning Yoga &amp; Exercise for 50+ · Hindi</span>
+    </div>
+  </a>
+</div>
+
+<!-- ==================== TAB: TRAVEL ==================== -->
+<div id="tab-travel" class="tab-content">
+  <div class="section-hero" data-emoji="✈️">
+    <h2 class="english">Eating Smart While Travelling</h2>
+    <h2 class="hindi">सफर में स्मार्ट खाना</h2>
+    <p class="english">Parties · Weddings · Work travel · No kitchen</p>
+    <p class="hindi">पार्टी · शादी · दफ्तर यात्रा · किचन नहीं</p>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">🏨</div>
+        <div>
+          <div class="card-label english">Work Travel / Hotels</div>
+          <div class="card-label hindi">काम की यात्रा / होटल</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <ul class="check-list">
+        <li><div class="check-dot yes">✓</div><div><strong class="english">Pack travel kit:</strong><strong class="hindi">सफर का किट:</strong><br><span class="english">Roasted makhana, mixed nuts, roasted chana, dates (5–6), protein bar (real ingredients only)</span><span class="hindi">भुना मखाना, मिश्रित मेवे, भुना चना, खजूर (5–6)</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong class="english">At hotel breakfast buffet:</strong><strong class="hindi">होटल नाश्ते में:</strong><br><span class="english">Idli/poha/upma over bread. Boiled eggs over fried (if veg, go for dal, sprouts, curd). Avoid pastries, white bread</span><span class="hindi">इडली/पोहा/उपमा लें। पेस्ट्री, सफेद ब्रेड से बचें। दाल, दही, स्प्राउट लें</span></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong class="english">Order restaurant food smartly:</strong><strong class="hindi">रेस्टोरेंट में स्मार्ट ऑर्डर:</strong><br><span class="english">Dal tadka + roti (no butter) + curd + salad — available everywhere in India</span><span class="hindi">दाल तड़का + रोटी (बटर नहीं) + दही + सलाद — पूरे भारत में मिलता है</span></div></li>
+        <li><div class="check-dot tip">💡</div><div><strong class="english">Keep Triphala churna sachet in bag</strong><strong class="hindi">बैग में त्रिफला चूर्ण का पाउच रखें</strong><br><span class="english">Travel constipation is real. 1 sachet at night = normal digestion</span><span class="hindi">यात्रा में कब्ज़ आम है। रात को 1 सैशे लें</span></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">💒</div>
+        <div>
+          <div class="card-label english">Weddings &amp; Parties</div>
+          <div class="card-label hindi">शादी और पार्टियां</div>
+          <div class="card-sub english">Enjoy without guilt — with a plan</div>
+          <div class="card-sub hindi">प्लान के साथ मज़े करें — बिना पछताए</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block green">
+        <h4 class="english">Strategy: "Eat before you go"</h4>
+        <h4 class="hindi">रणनीति: "जाने से पहले खाएं"</h4>
+        <p class="english">Have a light protein snack before leaving (handful nuts + chaach / curd). You'll eat 40% less at the party.</p>
+        <p class="hindi">जाने से पहले हल्का प्रोटीन स्नैक लें (मेवे + छाछ/दही)। पार्टी में 40% कम खाएंगे।</p>
+      </div>
+      <ul class="check-list">
+        <li><div class="check-dot yes">✓</div><div><strong class="english">At the buffet — eat salad + dal/lentil first</strong><strong class="hindi">बुफे में — पहले सलाद + दाल खाएं</strong></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong class="english">1 plate rule — fill once, no refills</strong><strong class="hindi">1 थाली का नियम — एक बार भरें, दोबारा नहीं</strong></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong class="english">Dessert: 2–3 bites only, not a full serving</strong><strong class="hindi">मिठाई: 2–3 बाइट काफी, पूरा हिस्सा नहीं</strong></div></li>
+        <li><div class="check-dot yes">✓</div><div><strong class="english">Next morning: warm water + light breakfast + 30 min walk</strong><strong class="hindi">अगली सुबह: गर्म पानी + हल्का नाश्ता + 30 मिनट वॉक</strong></div></li>
+        <li><div class="check-dot no">✗</div><div><strong class="english">Don't compensate by starving next day</strong><strong class="hindi">अगले दिन भूखे न रहें</strong></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon blue">🚂</div>
+        <div>
+          <div class="card-label english">Train / Long Journeys</div>
+          <div class="card-label hindi">ट्रेन / लंबी यात्रा</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="info-block">
+        <h4 class="english">Best Foods to Carry</h4>
+        <h4 class="hindi">ले जाने के लिए सबसे अच्छा खाना</h4>
+        <ul>
+          <li class="english">Roti with light sabzi (no gravy — won't spoil)</li>
+          <li class="hindi">रोटी + सूखी सब्ज़ी (ग्रेवी नहीं — खराब नहीं होगी)</li>
+          <li class="english">Roasted chana / makhana in a container</li>
+          <li class="hindi">डिब्बे में भुना चना / मखाना</li>
+          <li class="english">Fruits: banana, apple, guava (easy to carry)</li>
+          <li class="hindi">फल: केला, सेब, अमरूद (आसानी से ले जाएं)</li>
+          <li class="english">Avoid: pantry food, chips, sugary drinks, samosa</li>
+          <li class="hindi">बचें: पेंट्री का खाना, चिप्स, मीठे पेय, समोसा</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== TAB: SUPPLEMENTS ==================== -->
+<div id="tab-supplements" class="tab-content">
+  <div class="section-hero" data-emoji="💊">
+    <h2 class="english">Supplements for 50+</h2>
+    <h2 class="hindi">50+ के लिए सप्लीमेंट</h2>
+    <p class="english">Food first, supplements fill the gaps · Always consult doctor</p>
+    <p class="hindi">पहले खाना, सप्लीमेंट कमी पूरा करें · डॉक्टर से पूछें</p>
+  </div>
+
+  <div class="highlight">
+    <h3 class="english">⚠️ Important Note</h3>
+    <h3 class="hindi">⚠️ महत्वपूर्ण नोट</h3>
+    <p class="english">Get blood tests done before starting supplements: CBC, B12, Vitamin D, HbA1c, Lipid Profile, Thyroid (TSH). Best practice: test every 6 months.</p>
+    <p class="hindi">सप्लीमेंट शुरू करने से पहले ब्लड टेस्ट कराएं: CBC, B12, विटामिन D, HbA1c, लिपिड प्रोफाइल, थायरॉइड। हर 6 महीने जांच करें।</p>
+  </div>
+
+  <!-- Essential Supplements -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon green">✅</div>
+        <div>
+          <div class="card-label english">ESSENTIAL — Almost Everyone Needs These</div>
+          <div class="card-label hindi">ज़रूरी — लगभग सभी को चाहिए</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="supp-grid">
+        <div class="supp-card">
+          <div class="emoji">☀️</div>
+          <strong>Vitamin D3</strong>
+          <span class="english">1000–2000 IU/day with K2. With fat meal. Deficient in 80% of Indians</span>
+          <span class="hindi">1000–2000 IU/दिन K2 के साथ। फैट वाले खाने के साथ।</span>
+        </div>
+        <div class="supp-card">
+          <div class="emoji">💊</div>
+          <strong>Vitamin B12</strong>
+          <span class="english">500–1000 mcg/day. Methylcobalamin form (better than cyanocobalamin)</span>
+          <span class="hindi">500–1000 mcg/दिन। मेथाइलकोबालामिन फॉर्म बेहतर है।</span>
+        </div>
+        <div class="supp-card">
+          <div class="emoji">🦴</div>
+          <strong>Calcium + D3</strong>
+          <span class="english">Calcium citrate 500mg. Take with D3. Never take &gt;500mg at once</span>
+          <span class="hindi">कैल्शियम साइट्रेट 500 mg। D3 के साथ। एक बार में 500 से ज़्यादा नहीं।</span>
+        </div>
+        <div class="supp-card">
+          <div class="emoji">🧠</div>
+          <strong>Omega-3</strong>
+          <span class="english">Algae-based Omega-3 (vegetarian). 250–500mg DHA+EPA. Reduces inflammation</span>
+          <span class="hindi">शैवाल-आधारित ओमेगा-3 (शाकाहारी)। सूजन कम करे।</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recommended based on issues -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-icon saffron">💡</div>
+        <div>
+          <div class="card-label english">Good to Have (Based on needs)</div>
+          <div class="card-label hindi">अच्छे रहते हैं (ज़रूरत के अनुसार)</div>
+        </div>
+      </div><div class="card-arrow">▼</div>
+    </div>
+    <div class="card-body">
+      <div class="supp-grid">
+        <div class="supp-card">
+          <div class="emoji">🪨</div>
+          <strong>Magnesium</strong>
+          <span class="english">Glycinate/Malate 200–400mg. Improves sleep, muscle cramps, energy</span>
+          <span class="hindi">नींद, मांसपेशी ऐंठन, ऊर्जा के लिए 200–400 mg।</span>
+        </div>
+        <div class="supp-card">
+          <div class="emoji">🌿</div>
+          <strong>Ashwagandha</strong>
+          <span class="english">300–600mg KSM-66 extract. Stress, testosterone, muscle strength</span>
+          <span class="hindi">300–600 mg KSM-66। तनाव, शक्ति, हार्मोन के लिए।</span>
+        </div>
+        <div class="supp-card">
+          <div class="emoji">🔴</div>
+          <strong>CoQ10</strong>
+          <span class="english">100–200mg/day if on statins or heart issues. Heart + energy</span>
+          <span class="hindi">स्टेटिन लेते हों तो 100–200 mg। हृदय + ऊर्जा।</span>
+        </div>
+        <div class="supp-card">
+          <div class="emoji">🥄</div>
+          <strong>Protein Powder</strong>
+          <span class="english">Soy/pea protein (veg). 20–25g/serving if diet protein is lacking. No artificial sweetener</span>
+          <span class="hindi">सोया/पी प्रोटीन। 20–25 ग्राम/सर्विंग। कृत्रिम मीठे के बिना।</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://www.youtube.com/results?search_query=vitamin+D3+B12+supplements+india+50+age+hindi+deficiency" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>50+ के लिए ज़रूरी सप्लीमेंट — D3, B12, Omega 3</strong>
+      <span>Essential Supplements for 50+ · Hindi</span>
+    </div>
+  </a>
+</div>
+
+<!-- ==================== TAB: REMEDIES ==================== -->
+<div id="tab-remedies" class="tab-content">
+  <div class="section-hero" data-emoji="🌿">
+    <h2 class="english">Home Remedies &amp; Recovery</h2>
+    <h2 class="hindi">घरेलू नुस्खे और उपचार</h2>
+    <p class="english">Traditional Indian wisdom backed by modern science</p>
+    <p class="hindi">आधुनिक विज्ञान द्वारा सिद्ध परंपरागत भारतीय ज्ञान</p>
+  </div>
+
+  <div class="remedy-grid">
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r1&#39;))">
+      <span class="emoji">❤️</span>
+      <strong class="english">High Cholesterol</strong>
+      <strong class="hindi">उच्च कोलेस्ट्रॉल</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r2&#39;))">
+      <span class="emoji">⚖️</span>
+      <strong class="english">Obesity / Weight</strong>
+      <strong class="hindi">मोटापा / वज़न</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r3&#39;))">
+      <span class="emoji">🦵</span>
+      <strong class="english">Joint Pain</strong>
+      <strong class="hindi">जोड़ों का दर्द</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r4&#39;))">
+      <span class="emoji">💪</span>
+      <strong class="english">Weakness / Energy</strong>
+      <strong class="hindi">कमज़ोरी / थकान</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r5&#39;))">
+      <span class="emoji">💇</span>
+      <strong class="english">Hair Growth / Fall</strong>
+      <strong class="hindi">बाल उगना / झड़ना</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r6&#39;))">
+      <span class="emoji">👁️</span>
+      <strong class="english">Eye Health</strong>
+      <strong class="hindi">आंखों की सेहत</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r7&#39;))">
+      <span class="emoji">✨</span>
+      <strong class="english">Skin Health</strong>
+      <strong class="hindi">त्वचा की सेहत</strong>
+    </div>
+    <div class="remedy-card" onclick="toggleCard(document.getElementById(&#39;r8&#39;))">
+      <span class="emoji">🩸</span>
+      <strong class="english">Blood Sugar</strong>
+      <strong class="hindi">ब्लड शुगर</strong>
+    </div>
+  </div>
+
+  <!-- Remedy detail cards -->
+  <div style="margin-top:16px">
+    <div class="card" id="r1">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon red">❤️</div>
+          <div><div class="card-label english">High Cholesterol — Diet &amp; Remedies</div><div class="card-label hindi">उच्च कोलेस्ट्रॉल — आहार और उपाय</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block green">
+          <h4 class="english">✅ Eat These Daily</h4>
+          <h4 class="hindi">✅ रोज़ ये खाएं</h4>
+          <ul>
+            <li class="english">1 tbsp ground flaxseeds in dahi — lowers LDL</li>
+            <li class="hindi">1 चम्मच पिसी अलसी दही में — LDL घटाए</li>
+            <li class="english">2 walnuts daily — Omega-3 reduces bad cholesterol</li>
+            <li class="hindi">2 अखरोट रोज़ — ओमेगा-3 बुरा कोलेस्ट्रॉल घटाए</li>
+            <li class="english">Oats (½ cup) for breakfast — beta-glucan fiber</li>
+            <li class="hindi">नाश्ते में ओट्स (½ कप) — बीटा-ग्लूकन फाइबर</li>
+            <li class="english">Amla (Indian gooseberry) — 1 raw or dried daily</li>
+            <li class="hindi">आंवला — 1 कच्चा या सूखा रोज़</li>
+            <li class="english">Garlic (2 cloves, raw, morning) — clinically proven</li>
+            <li class="hindi">लहसुन (2 कलियां, कच्ची, सुबह) — वैज्ञानिक रूप से सिद्ध</li>
+          </ul>
+        </div>
+        <div class="info-block red">
+          <h4 class="english">❌ Strictly Avoid</h4>
+          <h4 class="hindi">❌ सख्ती से बचें</h4>
+          <p class="english">Refined oil, trans fats, ghee &gt;2 tsp/day, maida products, full-fat processed dairy</p>
+          <p class="hindi">रिफाइंड तेल, ट्रांस फैट, 2 चम्मच से ज़्यादा घी, मैदा उत्पाद</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r2">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon saffron">⚖️</div>
+          <div><div class="card-label english">Obesity / Weight Management</div><div class="card-label hindi">मोटापा / वज़न प्रबंधन</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block">
+          <h4 class="english">🌅 Morning Protocol</h4>
+          <h4 class="hindi">🌅 सुबह का प्रोटोकॉल</h4>
+          <ul>
+            <li class="english">Warm water + lemon + ½ tsp methi (fenugreek) powder on empty stomach</li>
+            <li class="hindi">गर्म पानी + नींबू + ½ चम्मच मेथी पाउडर खाली पेट</li>
+            <li class="english">Soak 1 tsp methi seeds in water overnight, drink that water</li>
+            <li class="hindi">1 चम्मच मेथी रात भर पानी में भिगोएं, वो पानी पिएं</li>
+          </ul>
+        </div>
+        <div class="info-block green">
+          <h4 class="english">Diet Principles for Weight Loss at 50+</h4>
+          <h4 class="hindi">50+ में वज़न घटाने के सिद्धांत</h4>
+          <ul>
+            <li class="english">Protein at every meal (reduces hunger for hours)</li>
+            <li class="hindi">हर भोजन में प्रोटीन (घंटों भूख नहीं लगती)</li>
+            <li class="english">Eliminate liquid calories (chai with sugar, juice)</li>
+            <li class="hindi">तरल कैलोरी बंद करें (चाय में चीनी, जूस)</li>
+            <li class="english">Eat dinner by 7:30 PM — 12 hour fast overnight</li>
+            <li class="hindi">7:30 बजे तक रात का खाना — 12 घंटे का उपवास</li>
+            <li class="english">Add 1 day per week of just fruits + chaach (light detox)</li>
+            <li class="hindi">हफ्ते में 1 दिन सिर्फ फल + छाछ (हल्का डिटॉक्स)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r3">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon green">🦵</div>
+          <div><div class="card-label english">Joint Pain / Arthritis</div><div class="card-label hindi">जोड़ों का दर्द / गठिया</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block">
+          <h4>🌿 Anti-Inflammatory Protocol</h4>
+          <ul>
+            <li class="english">Haldi + Kali mirch milk (golden milk) nightly — curcumin proven to reduce joint inflammation</li>
+            <li class="hindi">हल्दी + काली मिर्च दूध रात को — करक्यूमिन जोड़ों की सूजन कम करे</li>
+            <li class="english">2 walnuts + 1 tsp flaxseeds daily — omega-3 anti-inflammatory</li>
+            <li class="hindi">2 अखरोट + 1 चम्मच अलसी रोज़ — ओमेगा-3</li>
+            <li class="english">Ginger in chai / sabzi / warm water daily</li>
+            <li class="hindi">चाय/सब्ज़ी/गर्म पानी में अदरक रोज़</li>
+            <li class="english">Sesame oil (til ka tel) massage on joints — proven to reduce stiffness</li>
+            <li class="hindi">जोड़ों पर तिल के तेल की मालिश — अकड़न कम करे</li>
+          </ul>
+        </div>
+        <div class="info-block red">
+          <h4 class="english">❌ Avoid (Worsens inflammation)</h4>
+          <h4 class="hindi">❌ बचें (सूजन बढ़ाते हैं)</h4>
+          <p class="english">Sugar, maida, refined oil, excess salt, processed foods</p>
+          <p class="hindi">चीनी, मैदा, रिफाइंड तेल, ज़्यादा नमक</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r4">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon saffron">💪</div>
+          <div><div class="card-label english">Weakness / Low Energy / Fatigue</div><div class="card-label hindi">कमज़ोरी / कम ऊर्जा / थकान</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block">
+          <h4 class="english">First — Check these deficiencies</h4>
+          <h4 class="hindi">पहले — इन कमियों की जांच करें</h4>
+          <p class="english">B12, Vitamin D, Iron, Ferritin, Thyroid (TSH). These are the top causes of fatigue in 50+</p>
+          <p class="hindi">B12, विटामिन D, आयरन, फेरिटिन, थायरॉइड (TSH)। ये 50+ में थकान के मुख्य कारण हैं।</p>
+        </div>
+        <div class="info-block green">
+          <h4 class="english">Natural Energy Boosters</h4>
+          <h4 class="hindi">प्राकृतिक ऊर्जा बूस्टर</h4>
+          <ul>
+            <li class="english">Ashwagandha (300mg KSM-66 nightly) — adaptogen, reduces cortisol</li>
+            <li class="hindi">अश्वगंधा (300mg KSM-66 रात को) — तनाव कम करे, ऊर्जा बढ़ाए</li>
+            <li class="english">Dates (2–3) + banana before exercise — quick energy</li>
+            <li class="hindi">खजूर (2–3) + केला व्यायाम से पहले — त्वरित ऊर्जा</li>
+            <li class="english">Chyawanprash (1 tsp morning, with milk) in winter</li>
+            <li class="hindi">च्यवनप्राश (1 चम्मच सुबह, दूध के साथ) सर्दियों में</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r5">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon purple">💇</div>
+          <div><div class="card-label english">Hair Fall / Hair Growth</div><div class="card-label hindi">बाल झड़ना / बाल उगाना</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block">
+          <h4 class="english">Root cause first (get tested)</h4>
+          <h4 class="hindi">पहले कारण जानें (टेस्ट करवाएं)</h4>
+          <p class="english">Iron / ferritin deficiency, thyroid issues, B12 deficiency — all cause hair fall. Fix deficiency first.</p>
+          <p class="hindi">आयरन/फेरिटिन की कमी, थायरॉइड, B12 — सभी बाल झड़ाते हैं। पहले कमी ठीक करें।</p>
+        </div>
+        <div class="info-block green">
+          <h4 class="english">Foods for Hair Growth</h4>
+          <h4 class="hindi">बाल बढ़ाने वाले खाद्य पदार्थ</h4>
+          <ul>
+            <li class="english">Pumpkin seeds (zinc) + flaxseeds (omega-3) daily</li>
+            <li class="hindi">कद्दू के बीज (जिंक) + अलसी (ओमेगा-3) रोज़</li>
+            <li class="english">Amla (1 daily) — highest vitamin C, strengthens hair follicles</li>
+            <li class="hindi">आंवला (1 रोज़) — सबसे ज़्यादा विटामिन C, जड़ें मज़बूत</li>
+            <li class="english">Protein! Dal + paneer daily — hair is made of keratin (protein)</li>
+            <li class="hindi">प्रोटीन! दाल + पनीर रोज़ — बाल केरातिन (प्रोटीन) से बनते हैं</li>
+          </ul>
+        </div>
+        <div class="info-block">
+          <h4 class="english">External: Bhringraj + Coconut Oil Massage</h4>
+          <h4 class="hindi">बाहरी: भृंगराज + नारियल तेल की मालिश</h4>
+          <p class="english">Warm bhringraj oil + coconut oil massage 2x week. Leave overnight. Clinically studied for hair growth.</p>
+          <p class="hindi">गर्म भृंगराज + नारियल तेल हफ्ते में 2 बार। रात भर लगा रहने दें।</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r6">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon blue">👁️</div>
+          <div><div class="card-label english">Eye Health</div><div class="card-label hindi">आंखों की सेहत</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block green">
+          <h4 class="english">Top Foods for Eyes</h4>
+          <h4 class="hindi">आंखों के लिए सर्वश्रेष्ठ खाना</h4>
+          <ul>
+            <li class="english">Carrot + beetroot juice / raw daily — Vitamin A, lutein</li>
+            <li class="hindi">गाजर + चुकंदर जूस / कच्चा रोज़ — विटामिन A, लुटीन</li>
+            <li class="english">Spinach, methi, palak (lutein + zeaxanthin) — prevents macular degeneration</li>
+            <li class="hindi">पालक, मेथी (लुटीन + जियाजेंथिन) — मैकुलर डिजनरेशन रोके</li>
+            <li class="english">Almonds — Vitamin E for eye protection</li>
+            <li class="hindi">बादाम — विटामिन E आंखों की रक्षा करे</li>
+          </ul>
+        </div>
+        <div class="info-block">
+          <h4 class="english">Eye Habits</h4>
+          <h4 class="hindi">आंखों की आदतें</h4>
+          <ul>
+            <li class="english">20-20-20 rule: every 20 min, look 20 feet away for 20 sec</li>
+            <li class="hindi">20-20-20 नियम: हर 20 मिनट में, 20 फीट दूर 20 सेकंड देखें</li>
+            <li class="english">Splash eyes with cold water morning and night</li>
+            <li class="hindi">सुबह-रात ठंडे पानी से आंखें धोएं</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r7">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon saffron">✨</div>
+          <div><div class="card-label english">Skin Health — Glow from Inside</div><div class="card-label hindi">त्वचा की सेहत — अंदर से निखार</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block green">
+          <h4 class="english">Eat for Skin</h4>
+          <h4 class="hindi">त्वचा के लिए खाएं</h4>
+          <ul>
+            <li class="english">3–4L water daily — #1 skin hydration</li>
+            <li class="hindi">3–4 लीटर पानी रोज़ — त्वचा की नमी #1</li>
+            <li class="english">Amla / vitamin C rich foods — collagen production</li>
+            <li class="hindi">आंवला / विटामिन C युक्त खाना — कोलेजन उत्पादन</li>
+            <li class="english">Walnuts + flaxseeds — omega-3 for skin barrier</li>
+            <li class="hindi">अखरोट + अलसी — ओमेगा-3 त्वचा सुरक्षा</li>
+            <li class="english">Avoid sugar! Glycation ages skin faster</li>
+            <li class="hindi">चीनी से बचें! ग्लाइकेशन त्वचा जल्दी बूढ़ी करे</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="r8">
+      <div class="card-header" onclick="toggleCard(this.parentElement)">
+        <div class="card-title"><div class="card-icon red">🩸</div>
+          <div><div class="card-label english">Blood Sugar Management</div><div class="card-label hindi">ब्लड शुगर नियंत्रण</div></div>
+        </div><div class="card-arrow">▼</div>
+      </div>
+      <div class="card-body">
+        <div class="info-block">
+          <h4>🌿 Natural Blood Sugar Management</h4>
+          <ul>
+            <li class="english">Methi seeds soaked overnight water, drink morning</li>
+            <li class="hindi">मेथी के बीज रात भर भिगोएं, सुबह वो पानी पिएं</li>
+            <li class="english">½ tsp cinnamon (dalchini) in oats / dahi daily</li>
+            <li class="hindi">½ चम्मच दालचीनी ओट्स / दही में रोज़</li>
+            <li class="english">Karela (bitter gourd) juice 2x week</li>
+            <li class="hindi">करेला जूस हफ्ते में 2 बार</li>
+            <li class="english">Walk 10 min after every meal (lowers post-meal spike)</li>
+            <li class="hindi">हर खाने के बाद 10 मिनट टहलें (पोस्ट-मील शुगर कम होगी)</li>
+            <li class="english">Eat salad FIRST before carbs</li>
+            <li class="hindi">कार्ब से पहले सलाद खाएं</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <a href="https://www.youtube.com/results?search_query=home+remedies+cholesterol+joint+pain+hindi+ayurveda+natural" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>कोलेस्ट्रॉल, जोड़ दर्द — घरेलू नुस्खे</strong>
+      <span>Natural Remedies for Common Issues · Hindi</span>
+    </div>
+  </a>
+  <a href="https://www.youtube.com/results?search_query=baal+jhadna+rokne+ke+upay+hair+fall+hindi+natural+remedies" target="_blank" class="video-card">
+    <div class="video-thumb">▶</div>
+    <div class="video-info">
+      <strong>बाल झड़ना बंद करें — प्राकृतिक उपाय</strong>
+      <span>Stop Hair Fall Naturally · Hindi</span>
+    </div>
+  </a>
+</div>
+
+</div><!-- end main -->
+
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  event.currentTarget.classList.add('active');
+}
+
+function toggleCard(card) {
+  card.classList.toggle('open');
+}
+
+let lang = 'en';
+function toggleLang() {
+  lang = lang === 'en' ? 'hi' : 'en';
+  document.body.setAttribute('data-lang', lang);
+}
+
+function toggleTheme() {
+  const body = document.body;
+  const btn = document.getElementById('themeToggle');
+  if (body.getAttribute('data-theme') === 'light') {
+    body.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀️';
+  } else {
+    body.setAttribute('data-theme', 'light');
+    btn.textContent = '🌙';
+  }
+}
+</script>
+
+
+</body></html>
